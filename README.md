@@ -1,5 +1,3 @@
-# Finanças de Hoje
+# Finanças de Hoje - Flutter
 
-Atividade avaliativa de Flutter
-
-~ Professor Clavison
+Atividade avaliativa do Professor Clavison

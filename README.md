@@ -3,5 +3,3 @@
 Atividade avaliativa de Flutter
 
 ## Professor Clavison
-
-SENAI

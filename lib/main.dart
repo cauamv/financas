@@ -1,3 +1,6 @@
+import 'package:finacas_de_hoje/paginas/paginaAcoes.dart';
+import 'package:finacas_de_hoje/paginas/paginaBitCoin.dart';
+import 'package:finacas_de_hoje/paginas/paginaPrincipal.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,6 +17,13 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return MaterialApp(
+        debugShowCheckedModeBanner: false,
+        initialRoute: "/pagina-principal",
+        routes: {
+          '/pagina-principal': (context) => PaginaPrincipal(),
+          '/acoes': (context) => PaginaAcoes(),
+          '/bitcoin': (context) => PaginaBitCoin(),
+        });
   }
 }

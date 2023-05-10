@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
 
 class Botao extends StatefulWidget {
   final texto;
@@ -15,17 +13,17 @@ class _BotaoState extends State<Botao> {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.all(50.0),
+      padding: const EdgeInsets.all(15.0),
       child: ElevatedButton(
         style: ElevatedButton.styleFrom(
           foregroundColor: Colors.white,
-          backgroundColor: const Color.fromARGB(255, 53, 112, 238),
+          backgroundColor: Color.fromARGB(255, 0, 68, 27),
           shadowColor: Color.fromARGB(255, 148, 148, 148),
           elevation: 15,
           shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(10.0),
+            borderRadius: BorderRadius.circular(5.0),
           ),
-          minimumSize: const Size(150, 40),
+          minimumSize: const Size(100, 40),
         ),
         onPressed: widget.funcao,
         child: Text(widget.texto),
